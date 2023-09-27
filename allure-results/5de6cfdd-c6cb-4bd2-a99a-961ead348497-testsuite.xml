@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695813989499' stop='1695814021107'>
+    <name>Login Admin Customer Data Error Log Data</name>
+    <title>Login Admin Customer Data Error Log Data</title>
+    <test-cases>
+        <test-case start='1695813989501' status='failed' stop='1695814021099'>
+            <name>Test Wording Management Team</name>
+            <title>Test Wording Management Team</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 15000ms: expected '&lt;p.mx-auto.text-base.text-center.text-gray-500.sm:max-w-md.lg:text-xl.md:max-w-3xl.mb-16>' to have text 'Providing world-class software development services is not an easy job. Here is a Management team that always tries to provide the best for external parties (clients and partners) and internal teams.', but the text was 'Menyediakan layanan pengembangan software kelas dunia bukan pekerjaan mudah. Berikut adalah  tim Manajemen yang selalu berusaha memberikan yang terbaik bagi pihak eksternal (klien dan partner) dan tim internal.'</message>
+                <stack-trace>AssertionError: Timed out retrying after 15000ms: expected '&lt;p.mx-auto.text-base.text-center.text-gray-500.sm:max-w-md.lg:text-xl.md:max-w-3xl.mb-16>' to have text 'Providing world-class software development services is not an easy job. Here is a Management team that always tries to provide the best for external parties (clients and partners) and internal teams.', but the text was 'Menyediakan layanan pengembangan software kelas dunia bukan pekerjaan mudah. Berikut adalah  tim Manajemen yang selalu berusaha memberikan yang terbaik bagi pihak eksternal (klien dan partner) dan tim internal.'
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Management_Team/Management_team.feature:14728:43)
+                    at Registry.runStepDefininition (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Management_Team/Management_team.feature:13256:48)
+                    at Object.fn (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Management_Team/Management_team.feature:14153:41)
+                    at runStepWithLogGroup (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Management_Team/Management_team.feature:13862:36)
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Management_Team/Management_team.feature:14150:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

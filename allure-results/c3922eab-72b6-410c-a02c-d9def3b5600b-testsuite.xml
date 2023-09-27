@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695813918324' stop='1695813988468'>
+    <name>Login Admin Customer Data Error Log Data</name>
+    <title>Login Admin Customer Data Error Log Data</title>
+    <test-cases>
+        <test-case start='1695813918326' status='failed' stop='1695813955683'>
+            <name>Test Wording Jakarta Branchless Business Team</name>
+            <title>Test Wording Jakarta Branchless Business Team</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 15000ms: expected '&lt;h1.text-xl.font-bold.text-white.inline.pt-4.lg:pt-0>' to have text 'Jakarta Branchless Business Team', but the text was 'Jakarta Branchless Bussiness Team'</message>
+                <stack-trace>AssertionError: Timed out retrying after 15000ms: expected '&lt;h1.text-xl.font-bold.text-white.inline.pt-4.lg:pt-0>' to have text 'Jakarta Branchless Business Team', but the text was 'Jakarta Branchless Bussiness Team'
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14790:38)
+                    at Registry.runStepDefininition (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:13256:48)
+                    at Object.fn (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14153:41)
+                    at runStepWithLogGroup (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:13862:36)
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14150:60)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1695813955684' status='failed' stop='1695813988453'>
+            <name>Test Wording Bandung Branchless Business Team</name>
+            <title>Test Wording Bandung Branchless Business Team</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 15000ms: expected '&lt;h1.text-xl.font-bold.text-white.inline>' to have text 'Bandung Branchless Business Team', but the text was 'Bandung Branchless Bussiness Team'</message>
+                <stack-trace>AssertionError: Timed out retrying after 15000ms: expected '&lt;h1.text-xl.font-bold.text-white.inline>' to have text 'Bandung Branchless Business Team', but the text was 'Bandung Branchless Bussiness Team'
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14798:62)
+                    at Registry.runStepDefininition (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:13256:48)
+                    at Object.fn (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14153:41)
+                    at runStepWithLogGroup (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:13862:36)
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Dashboard/Dashboard.feature:14150:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

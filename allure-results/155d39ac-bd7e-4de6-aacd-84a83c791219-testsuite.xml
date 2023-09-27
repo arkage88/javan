@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1695814022002' stop='1695814066177'>
+    <name>Login Admin Customer Data Error Log Data</name>
+    <title>Login Admin Customer Data Error Log Data</title>
+    <test-cases>
+        <test-case start='1695814022004' status='failed' stop='1695814044532'>
+            <name>Test Combo Box PM</name>
+            <title>Test Combo Box PM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 15000ms: expected '&lt;button#knowledge-btn-categories.inline-flex.justify-between.w-full.py-4.px-4.border.border-solid.border-black-20%.box-border.rounded-md.bg-white.font-nunito.font-semibold.text-base.text-black-50%>' to have text 'Project Manager', but the text was '\n                        Kategori\n                        \n                            \n                        \n                    '</message>
+                <stack-trace>AssertionError: Timed out retrying after 15000ms: expected '&lt;button#knowledge-btn-categories.inline-flex.justify-between.w-full.py-4.px-4.border.border-solid.border-black-20%.box-border.rounded-md.bg-white.font-nunito.font-semibold.text-base.text-black-50%>' to have text 'Project Manager', but the text was '\n                        Kategori\n                        \n                            \n                        \n                    '
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14755:45)
+                    at Registry.runStepDefininition (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:13256:48)
+                    at Object.fn (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14153:41)
+                    at runStepWithLogGroup (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:13862:36)
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14150:60)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1695814044533' status='failed' stop='1695814066160'>
+            <name>Test Combo Box BPMN</name>
+            <title>Test Combo Box BPMN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 15000ms: expected '&lt;button#knowledge-btn-categories.inline-flex.justify-between.w-full.py-4.px-4.border.border-solid.border-black-20%.box-border.rounded-md.bg-white.font-nunito.font-semibold.text-base.text-black-50%>' to have text 'Project Manager', but the text was '\n                        Kategori\n                        \n                            \n                        \n                    '</message>
+                <stack-trace>AssertionError: Timed out retrying after 15000ms: expected '&lt;button#knowledge-btn-categories.inline-flex.justify-between.w-full.py-4.px-4.border.border-solid.border-black-20%.box-border.rounded-md.bg-white.font-nunito.font-semibold.text-base.text-black-50%>' to have text 'Project Manager', but the text was '\n                        Kategori\n                        \n                            \n                        \n                    '
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14763:45)
+                    at Registry.runStepDefininition (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:13256:48)
+                    at Object.fn (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14153:41)
+                    at runStepWithLogGroup (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:13862:36)
+                    at Context.eval (https://javan.co.id/__cypress/tests?p=cypress/e2e/feature/Knowledge/Knowledge.feature:14150:60)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
